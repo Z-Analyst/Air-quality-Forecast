@@ -1,4 +1,4 @@
-a
+#WORLD QUANT UNIVERSITY PROJECT
 # 🌍 Air Quality Prediction in Nairobi and Dar es Salaam
 
 ## 💡 Project Goal
