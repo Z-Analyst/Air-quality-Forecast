@@ -2,14 +2,16 @@
 # 🌍 Air Quality Prediction in Nairobi and Dar es Salaam
 
 ## 💡 Project Goal
-Developed a time-series forecasting model to predict **PM 2.5 readings** throughout the day for key stations in **Nairobi, Kenya, and Dar es Salaam, Tanzania**. The objective was to improve forecasting accuracy over a naive baseline, providing essential air quality insights for public health and environmental monitoring.
+Developed a time-series forecasting model to predict **PM 2.5 readings** throughout the day for key stations in **Nairobi, Kenya, and Dar es Salaam, Tanzania**. The objective was to improve forecasting accuracy over a naive baseline, providing essential air quality insights for public health and environmental monitoring. Accurate PM 2.5 forecasting enables city health departments to issue timely air quality warnings, potentially reducing 
+respiratory health incidents in densely populated urban areas.
 
 ## 📊 Key Results
 The final model significantly outperformed the naive baseline prediction.
 
 * **Baseline Mean Absolute Error (MAE):** `4.053`
 * **Final Model Mean Absolute Error (MAE):** `3.97`
-    * *Result:* The model achieved an accuracy improvement of approximately **2.05%** over the simple persistence model, demonstrating effective time-series analysis and model selection.
+    * *Result:*The model achieved an accuracy improvement of approximately **2.05%** over the simple persistence model, demonstrating effective time-series analysis and model selection.
+    * Final Model MAE: 3.97 vs Baseline MAE: 4.053 Achieved lower prediction error using ARIMA with walk-forward validation on real-world sensor data
 
 ## 🛠️ Methodology and Techniques
 
